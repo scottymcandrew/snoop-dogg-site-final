@@ -1,0 +1,150 @@
+/* Font styles */
+
+.font-rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.font-karla {
+    font-family: 'Karla', sans-serif;
+}
+
+/* Color Pallete */
+
+.bg-color1 {
+    background-color: rgba(239, 233, 231, 1);
+}
+.color1 {
+    color: rgba(239, 233, 231, 1);
+}
+.bg-color2 {
+    background-color: rgba(218, 224, 242, 1);
+}
+.color2 {
+    color: rgba(218, 224, 242, 1);
+}
+.bg-color3 {
+    background-color: rgba(249, 207, 242, 1);
+}
+.color3 {
+    color: rgba(249, 207, 242, 1);
+}
+.bg-color4 {
+    background-color: rgba(82, 21, 78, 1);
+}
+color4 {
+    color: rgba(82, 21, 78, 1);
+}
+.bg-color5 {
+    background-color: rgba(17, 19, 68, 1);
+}
+.color5 {
+    color: rgba(17, 19, 68, 1);
+}
+
+.bg-color-blue {
+    background-color: #5680e9;
+}
+.color-blue {
+    color: #5680e9;
+}
+.bg-color-turquoise {
+    background-color: #84ceeb;
+}
+.color-turquoise {
+    color: #84ceeb;
+}
+.bg-color-light-blue {
+    background-color: #5ab9ea;
+}
+.color-light-blue {
+    color: #5ab9ea;
+}
+.bg-color-light-grey {
+    background-color: #c1c8e4;
+}
+.bg-color-light-grey-transparent {
+    background-color: #c1c8e4d2;
+}
+.color-light-grey {
+    color: #c1c8e4;
+}
+.bg-color-purple {
+    background-color: #8860D0;
+}
+.color-purple {
+    color: #8860D0;
+}
+
+/* Parallax background */
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/background-image.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Pictures */
+
+/* Margins, Padding etc */
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.side-bar-wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.side-bar {
+    padding: 25px;
+    font-weight: 700;
+    height: 100%;
+    min-height: 100%;
+}
+
+.side-bar img {
+    height: 70px;
+    width: 200px;
+    padding: 10px 0px 0px;
+}
+
+.main-content {
+    padding: 50px;
+    /* height: 100%;
+    min-height: 100%; */
+}
+
+/* Side Bar other */
+
+.side-bar i {
+    font-size: 32px;
+    padding: 0px 10px;
+}
+
+.sidebar-links-container a {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sidebar-links-container img {
+    width: 64px;
+    height: 64px;
+}
+
+.sidebar-links-container a:hover {
+    color: #c1c8e4;
+}
