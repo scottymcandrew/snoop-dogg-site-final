@@ -140,11 +140,18 @@ body {
     font-weight: 400;
 }
 
+.sidebar-links-container a:hover {
+    color: #c1c8e4;
+}
+
 .sidebar-links-container img {
     width: 64px;
     height: 64px;
 }
 
-.sidebar-links-container a:hover {
-    color: #c1c8e4;
+.sidebar-links-container ul {
+    list-style-type: none;
+    padding: 0;
 }
+
+/* Main Content */
