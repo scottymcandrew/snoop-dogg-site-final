@@ -155,3 +155,8 @@ body {
 }
 
 /* Main Content */
+
+.section {
+    background-color: #c1c8e4d2!important;
+    padding: 0 50px;
+}
