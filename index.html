@@ -18,11 +18,7 @@
     <title>Snoop Dogg - Fo Shizzle!</title>
 </head>
 
-<!-- Enable Flex container on body-->
-
-
 <body class="font-karla parallax">
-
 
     <!-- Top Nav only visible when side bar is hidden on small screens-->
     <nav class="d-flex flex-row d-xs-block d-sm-block d-md-none">
@@ -30,9 +26,9 @@
         <a href="#">TEST2</a>
     </nav>
     <!-- Div to set the main flex container as a row-->
-    <section class="main-site-container d-flex flex-row">
+    <section class="main-site-container d-md-flex flex-row d-xs-block d-sm-block">
         <!-- Wrapper for Side bar -->
-        <div class="side-bar-wrapper">
+        <div class="side-bar-wrapper d-none d-md-flex">
             <!-- Side bar-->
             <div class="side-bar font-rubik bg-color-purple flex-column d-none d-md-flex d-lg-flex d-xl-flex">
                 <!-- Snoop Dogg Logo Image -->
@@ -188,24 +184,18 @@
             <!-- Vidz (Video) Page -->
             <div class="section d-flex flex-column justify-content-center">
                 <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-vidz-1">
-                    <div class="video-player-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/BPmAxzEJpWA" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                    <div class="video-player-container embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BPmAxzEJpWA" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-vidz-2">
-                    <div class="video-player-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-Ocre0kXgvg" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                    <div class="video-player-container embed-responsive embed-responsive-16by9"">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Ocre0kXgvg" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-vidz-3">
-                    <div class="video-player-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_CL6n0FJZpk" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                    <div class="video-player-container embed-responsive embed-responsive-16by9"">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_CL6n0FJZpk" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
