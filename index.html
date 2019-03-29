@@ -7,12 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/ico" href="assets/images/snoop-favicon_64x64.ico">
     <link href="https://fonts.googleapis.com/css?family=Karla|Rubik" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-        type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/fullpage.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Snoop Dogg - Fo Shizzle!</title>
@@ -21,10 +19,53 @@
 <body class="font-karla parallax">
 
     <!-- Top Nav only visible when side bar is hidden on small screens-->
-    <nav class="d-flex flex-row d-xs-block d-sm-block d-md-none">
-        <a href="#">TEST1</a>
-        <a href="#">TEST2</a>
-    </nav>
+    <div class="fixed-top d-md-none">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="nav-top-links bg-color-purple p-4 d-flex flex-row justify-content-center">
+                <div class="nav-top-link text-center">
+                    <a href="#houzz"><i class="fas fa-house-damage color3"></i></a>
+                </div>
+                <div class="nav-top-link text-center">
+                    <a href="#newz"><i class="far fa-newspaper color3"></i></a>
+                </div>
+                <div class="nav-top-link text-center">
+                    <a href="#noize"><i class="fas fa-headphones-alt color3"></i></a>
+                </div>
+                <div class="nav-top-link text-center">
+                    <a href="#vidz"><i class="fas fa-film color3"></i></a>
+                </div>
+                <div class="nav-top-link text-center">
+                    <a href="#book"><i class="fas fa-book-open color3"></i></a>
+                </div>
+            </div>
+            <div class="nav-top-socials bg-color-purple p-4 d-flex flex-row justify-content-center">
+                <div class="nav-top-social-link text-center">
+                    <a href="https://www.facebook.com/snoopdogg/" target="_blank" class="hvr-buzz-out"><i class="fab fa-facebook color3"></i></a>
+                </div>
+                <div class="nav-top-social-link text-center">
+                    <a href="https://twitter.com/SnoopDogg" target="_blank" class="hvr-buzz-out"><i class="fab fa-twitter-square color3"></i></a>
+                </div>
+                <div class="nav-top-social-link text-center">
+                    <a href="https://www.instagram.com/snoopdogg/" target="_blank" class="hvr-buzz-out"><i class="fab fa-instagram color3"></i></a>
+                </div>
+                <div class="nav-top-social-link text-center">
+                    <a href="https://www.youtube.com/channel/UCPNO5hAI2hxZzh5PVisCnDA" target="_blank" class="hvr-buzz-out"><i class="fab fa-youtube-square color3"></i></a>
+                </div>
+                <div class="nav-top-social-link text-center">
+                    <a href="https://www.tumblr.com/tagged/snoop-dogg" target="_blank" class="hvr-buzz-out"><i class="fab fa-tumblr-square color3"></i></a>
+                </div>
+                <div class="nav-top-social-link text-center">
+                    <a href="https://www.pinterest.com/biggsnoopdogg/" target="_blank" class="hvr-buzz-out"><i class="fab fa-pinterest-square color3"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-color-purple">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+
     <!-- Div to set the main flex container as a row-->
     <section class="main-site-container d-md-flex flex-row d-xs-block d-sm-block">
         <!-- Wrapper for Side bar -->
@@ -38,17 +79,11 @@
                 <!-- Page links -->
                 <div class="sidebar-links-container">
                     <ul id="menu">
-                        <li data-menuanchor="houzz" class="active"><a
-                                class="flex-fill color3 text-center text-uppercase nav-link" href="#houzz">Snoop's
-                                Houzz!</a></li>
-                        <li data-menuanchor="newz"><a class="flex-fill color3 text-center text-uppercase nav-link"
-                                href="#newz">Newz!</a></li>
-                        <li data-menuanchor="noize"><a class="flex-fill color3 text-center text-uppercase nav-link"
-                                href="#noize">Noize!</a></li>
-                        <li data-menuanchor="vidz"><a class="flex-fill color3 text-center text-uppercase nav-link"
-                                href="#vidz">Vidz!</a></li>
-                        <li data-menuanchor="book"><a class="flex-fill color3 text-center text-uppercase nav-link"
-                                href="#book">Book da Snoop Now!</a></li>
+                        <li data-menuanchor="houzz" class="active"><a class="flex-fill color3 text-center text-uppercase nav-link" href="#houzz">Snoop's Houzz!</a></li>
+                        <li data-menuanchor="newz"><a class="flex-fill color3 text-center text-uppercase nav-link" href="#newz">Newz!</a></li>
+                        <li data-menuanchor="noize"><a class="flex-fill color3 text-center text-uppercase nav-link" href="#noize">Noize!</a></li>
+                        <li data-menuanchor="vidz"><a class="flex-fill color3 text-center text-uppercase nav-link" href="#vidz">Vidz!</a></li>
+                        <li data-menuanchor="book"><a class="flex-fill color3 text-center text-uppercase nav-link" href="#book">Book da Snoop Now!</a></li>
                     </ul>
                     <div class="text-center">
                         <img src="./assets/images/snoopdance5.gif" alt="">
@@ -57,28 +92,22 @@
                 <!-- Social Links at bottom -->
                 <div class="sidebar-social-links-container d-flex flex-row mt-auto justify-content-center">
                     <div class="footer-link text-center">
-                        <a href="https://www.facebook.com/snoopdogg/" target="_blank" class="hvr-buzz-out"><i
-                                class="fab fa-facebook color3"></i></a>
+                        <a href="https://www.facebook.com/snoopdogg/" target="_blank" class="hvr-buzz-out"><i class="fab fa-facebook color3"></i></a>
                     </div>
                     <div class="footer-link text-center">
-                        <a href="https://twitter.com/SnoopDogg" target="_blank" class="hvr-buzz-out"><i
-                                class="fab fa-twitter-square color3"></i></a>
+                        <a href="https://twitter.com/SnoopDogg" target="_blank" class="hvr-buzz-out"><i class="fab fa-twitter-square color3"></i></a>
                     </div>
                     <div class="footer-link text-center">
-                        <a href="https://www.instagram.com/snoopdogg/" target="_blank" class="hvr-buzz-out"><i
-                                class="fab fa-instagram color3"></i></a>
+                        <a href="https://www.instagram.com/snoopdogg/" target="_blank" class="hvr-buzz-out"><i class="fab fa-instagram color3"></i></a>
                     </div>
                     <div class="footer-link text-center">
-                        <a href="https://www.youtube.com/channel/UCPNO5hAI2hxZzh5PVisCnDA" target="_blank"
-                            class="hvr-buzz-out"><i class="fab fa-youtube-square color3"></i></a>
+                        <a href="https://www.youtube.com/channel/UCPNO5hAI2hxZzh5PVisCnDA" target="_blank" class="hvr-buzz-out"><i class="fab fa-youtube-square color3"></i></a>
                     </div>
                     <div class="footer-link text-center">
-                        <a href="https://www.tumblr.com/tagged/snoop-dogg" target="_blank" class="hvr-buzz-out"><i
-                                class="fab fa-tumblr-square color3"></i></a>
+                        <a href="https://www.tumblr.com/tagged/snoop-dogg" target="_blank" class="hvr-buzz-out"><i class="fab fa-tumblr-square color3"></i></a>
                     </div>
                     <div class="footer-link text-center">
-                        <a href="https://www.pinterest.com/biggsnoopdogg/" target="_blank" class="hvr-buzz-out"><i
-                                class="fab fa-pinterest-square color3"></i></a>
+                        <a href="https://www.pinterest.com/biggsnoopdogg/" target="_blank" class="hvr-buzz-out"><i class="fab fa-pinterest-square color3"></i></a>
                     </div>
                 </div>
             </div><!-- End Side Bar -->
@@ -100,7 +129,7 @@
                     solo debut, "Deep Cover", and then on Dre's solo debut album, The Chronic. He has since sold over 23
                     million albums in the United States and 35 million albums worldwide.</p>
                 <hr>
-                <p class="bio-main-text">Snoop's debut album, Doggystyle, produced by Dr. Dre, was released in 1993 by
+                <!-- <p class="bio-main-text">Snoop's debut album, Doggystyle, produced by Dr. Dre, was released in 1993 by
                     Death Row Records. Bolstered by excitement driven by Snoop's featuring on The Chronic, the album
                     debuted at number one on both the Billboard 200 and Billboard Top R&B/Hip-Hop Albums charts. Selling
                     almost a million copies in the first week of its release, Doggystyle became certified quadruple
@@ -108,7 +137,7 @@
                     1994 Snoop released a soundtrack on Death Row Records for the short film Murder Was the Case,
                     starring himself. His second album, Tha Doggfather (1996), also debuted at number one on both
                     charts, with "Snoop's Upside Ya Head" as the lead single. The album was certified double platinum in
-                    1997.</p>
+                    1997.</p> -->
             </div>
 
             <!-- Newz (News) Page -->
@@ -162,21 +191,18 @@
             <!-- Noize (Music) Page -->
             <div class="section d-flex flex-column justify-content-center">
                 <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-noize-1">
-                    <div class="audio-player-container">
-                        <iframe src="https://open.spotify.com/embed/track/70ludZZEUJy1aFVkPI0Kpi" width="360"
-                            height="280" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <div class="audio-player-container embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/70ludZZEUJy1aFVkPI0Kpi" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
                 <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-noize-2">
-                    <div class="audio-player-container">
-                        <iframe src="https://open.spotify.com/embed/track/6RrCh7L1a0SQEZOHPThVKB" width="360"
-                            height="280" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <div class="audio-player-container embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/6RrCh7L1a0SQEZOHPThVKB" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
                 <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-noize-3">
-                    <div class="audio-player-container">
-                        <iframe src="https://open.spotify.com/embed/track/0WKYRFtH6KKbaNWjsxqm70" width="360"
-                            height="280" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <div class="audio-player-container embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://open.spotify.com/embed/track/0WKYRFtH6KKbaNWjsxqm70" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
             </div>
@@ -190,12 +216,12 @@
                 </div>
                 <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-vidz-2">
                     <div class="video-player-container embed-responsive embed-responsive-16by9"">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Ocre0kXgvg" allowfullscreen></iframe>
+                        <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/-Ocre0kXgvg" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-vidz-3">
                     <div class="video-player-container embed-responsive embed-responsive-16by9"">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_CL6n0FJZpk" allowfullscreen></iframe>
+                        <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/_CL6n0FJZpk" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -207,12 +233,10 @@
                     <form>
                         <div class="form-group">
                             <label for="fullname">Be entering yo details otherwize Snoop can't hit ya back!</label>
-                            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name"
-                                required />
+                            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
                         </div>
                         <div class="form-group">
-                            <input type="text" name="emailaddress" class="form-control" id="emailaddress"
-                                placeholder="Email" required />
+                            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
                         </div>
                         <div class="form-group">
                             <label for="venusize">How Many Ganstas Can Fit in Da Houzzz?</label>
@@ -233,8 +257,7 @@
                         </div>
                         <div class="form-group">
                             <label for="additionalinfo">Any Otha Rappin' You Need to Tell Snoop?</label>
-                            <textarea rows="5" name="additionalinfo" class="form-control" id="additionalinfo"
-                                placeholder="Additional Information of Venue" required></textarea>
+                            <textarea rows="5" name="additionalinfo" class="form-control" id="additionalinfo" placeholder="Additional Information of Venue" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-secondary center-block">Hit that request yo!</button>
                     </form>
@@ -258,15 +281,9 @@
     }); -->
 
     <!-- scripts required by Bootstrap 4.2 -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- Fullpage Scripts -->
     <script type="text/javascript" src="./js/fullpage.js"></script>
     <script type="text/javascript">
