@@ -28,6 +28,9 @@
                     <a href="#newz"><i class="far fa-newspaper color-pastel-purple"></i></a>
                 </div>
                 <div class="nav-top-link text-center">
+                    <a href="#pics"><i class="fas fa-camera color-pastel-purple"></i></a>
+                </div>
+                <div class="nav-top-link text-center">
                     <a href="#noize"><i class="fas fa-headphones-alt color-pastel-purple"></i></a>
                 </div>
                 <div class="nav-top-link text-center">
@@ -83,6 +86,7 @@
                     <ul id="menu">
                         <li data-menuanchor="houzz" class="active"><a class="flex-fill color-pastel-purple text-center text-uppercase nav-link" href="#houzz">Snoop's Houzz!</a></li>
                         <li data-menuanchor="newz"><a class="flex-fill color-pastel-purple text-center text-uppercase nav-link" href="#newz">Newz!</a></li>
+                        <li data-menuanchor="newz"><a class="flex-fill color-pastel-purple text-center text-uppercase nav-link" href="#pics">Pics!</a></li>
                         <li data-menuanchor="noize"><a class="flex-fill color-pastel-purple text-center text-uppercase nav-link" href="#noize">Noize!</a></li>
                         <li data-menuanchor="vidz"><a class="flex-fill color-pastel-purple text-center text-uppercase nav-link" href="#vidz">Vidz!</a></li>
                         <li data-menuanchor="book"><a class="flex-fill color-pastel-purple text-center text-uppercase nav-link" href="#book">Book da Snoop Now!</a></li>
@@ -150,7 +154,7 @@
                 </div>
                 <div class="slide d-flex flex-column justify-content-center" id="slide-news-1">
                     <div class="news-article">
-                        <h3 class="font-rubik text-uppercase text-center">SNOOP TOUR KICKS OFF IN CANADA</h3>
+                        <h2 class="font-rubik text-uppercase text-center">SNOOP TOUR KICKS OFF IN CANADA</h2>
                         <p class="news-date text-center">07/02/19</p>
                         <br>
                         <p class="news-text text-center">Snoop Dogg is hitting a four-stop tour in Canada with shows
@@ -158,13 +162,12 @@
                             Saskatoon, Edmonton, Calgary and Vancouver. Joining him on tour are hip-hop legends Bone
                             Thugs-N-Harmony, Afroman, and long time collaborators Warren G and Kurupt. The tour kicks
                             off February 19-22, get your tickets on ticketmaster today!</p>
-                        <hr>
                     </div>
                 </div>
                 <div class="slide d-flex flex-column justify-content-center" id="slide-news-2">
                     <div class="news-article">
-                        <h3 class="font-rubik text-uppercase text-center">SNOOP’S NEW STAGE PLAY AND BIBLE OF LOVE MERCH
-                        </h3>
+                        <h2 class="font-rubik text-uppercase text-center">SNOOP’S NEW STAGE PLAY AND BIBLE OF LOVE MERCH
+                        </h2>
                         <p class="news-date text-center">11/08/18</p>
                         <br>
                         <p class="news-text text-center">Snoop Dogg released his first gospel album this past March
@@ -176,18 +179,32 @@
 
                             To continue to celebrate the release of Bible of Love, Snoop has recently released a new set
                             of merchandise from the album. Get your Bible of Love merch today!</p>
-                        <hr>
                     </div>
                 </div>
                 <div class="slide d-flex flex-column justify-content-center" id="slide-new-3">
                     <div class="news-article">
-                        <h3 class="font-rubik text-uppercase text-center">SNOOP DOGG HITS THE SOUTHWEST THIS MONTH
-                        </h3>
+                        <h2 class="font-rubik text-uppercase text-center">SNOOP DOGG HITS THE SOUTHWEST THIS MONTH
+                        </h2>
                         <p class="news-date text-center">13/12/17</p>
                         <br>
                         <p class="news-text text-center">Snoop is headed to the Southwest. Get your tickets now!</p>
-                        <hr>
                     </div>
+                </div>
+            </section>
+
+            <!-- Pics Page -->
+            <section class="section section-pics d-flex flex-column justify-content-center color-purple">
+                <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-pics-1">
+                    <img class="img-fluid" src="/assets/images/snoop1.jpg" alt="Snoop Dogg Bio Pic 1">
+                </div>
+                <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-pics-2">
+                    <img class="img-fluid" src="/assets/images/snoop2.jpg" alt="Snoop Dogg Bio Pic 2">
+                </div>
+                <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-pics-3">
+                    <img class="img-fluid" src="/assets/images/snoop3.jpg" alt="Snoop Dogg Bio Pic 3">
+                </div>
+                <div class="slide d-flex flex-column justify-content-center align-items-center" id="slide-pics-4">
+                    <img class="img-fluid" src="/assets/images/snoop4.jpg" alt="Snoop Dogg Bio Pic 4">
                 </div>
             </section>
 
@@ -307,10 +324,10 @@
             //Navigation
             menu: '#menu',
             lockAnchors: false,
-            anchors: ['houzz', 'newz', 'noize', 'vidz', 'book'],
+            anchors: ['houzz', 'newz', 'pics', 'noize', 'vidz', 'book'],
             navigation: true,
             navigationPosition: 'right',
-            navigationTooltips: ['houzz', 'newz', 'noize', 'vidz', 'book'],
+            navigationTooltips: ['houzz', 'newz', 'pics', 'noize', 'vidz', 'book'],
             showActiveTooltip: false,
             slidesNavigation: true,
             slidesNavPosition: 'bottom',

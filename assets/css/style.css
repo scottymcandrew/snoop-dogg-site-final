@@ -88,8 +88,6 @@ color4 {
     background-size: cover;
 }
 
-/* Pictures */
-
 /* Margins, Padding etc */
 
 html {
@@ -214,4 +212,12 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: #8860D0;
     color: rgba(249, 207, 242, 1);
+}
+
+/* ------------- Fullpage.js additional styling ------- */
+
+.fp-slidesNav {
+    /* Slide nav bullets are being hidden by embeds on large screens */
+    position: static!important;
+    padding-top: 5px;
 }
