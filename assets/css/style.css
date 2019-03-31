@@ -22,12 +22,6 @@
 .color2 {
     color: rgba(218, 224, 242, 1);
 }
-.bg-color3 {
-    background-color: rgba(249, 207, 242, 1);
-}
-.color3 {
-    color: rgba(249, 207, 242, 1);
-}
 .bg-color4 {
     background-color: rgba(82, 21, 78, 1);
 }
@@ -63,7 +57,7 @@ color4 {
     background-color: #c1c8e4;
 }
 .bg-color-light-grey-transparent {
-    background-color: #c1c8e4d2;
+    background-color: #c1c8e4e3;
 }
 .color-light-grey {
     color: #c1c8e4;
@@ -74,14 +68,19 @@ color4 {
 .color-purple {
     color: #8860D0;
 }
+.bg-color-pastel-purple {
+    background-color: rgba(249, 207, 242, 1);
+}
+.color-pastel-purple {
+    color: rgba(249, 207, 242, 1);
+}
 
 /* Parallax background */
 
 .parallax {
     /* The image used */
     background-image: url("../images/background-image.jpg");
-    /* Set a specific height */
-    height: 500px;
+    height: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -144,6 +143,11 @@ nav {
     padding: 0px 10px;
 }
 
+.navbar img {
+    width: 100px;
+    height: 32px;
+}
+
 /* Side Bar other */
 
 .side-bar i {
@@ -173,6 +177,41 @@ nav {
 /* Main Content */
 
 .section {
-    background-color: #c1c8e4d2!important;
+    /* background-color: #c1c8e4d2!important; */
+    background-color: #c1c8e4e3!important;
     padding: 0 50px;
+}
+
+.section h1,
+.section h2,
+.section h3,
+.section h4 {
+    font-weight: 900;
+}
+
+.section p {
+    font-weight: 700;
+}
+
+/* ---------------- Form --------------- */
+
+.form-group input,
+.form-group select,
+.form-group option,
+.form-group textarea {
+    background-color: rgba(193, 193, 193, 0.8);
+    font-weight: 700;
+    border: 5px solid #8860D0;
+}
+
+.form-group label {
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #8860D0;
+    color: rgba(249, 207, 242, 1);
 }
