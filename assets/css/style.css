@@ -221,3 +221,17 @@ button[type="submit"] {
     position: static!important;
     padding-top: 5px;
 }
+
+/* -------------- Media Queries ------------- */
+
+/* Hiding the purple top nav bat container to not overspill on small screens */
+@media screen and (max-width: 500px) {
+    .navbar {
+        height: 0px;
+        padding: 0;
+    }
+    .navbar img,
+    .navbar button {
+        margin: 10px;
+    }
+}
