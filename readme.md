@@ -18,6 +18,8 @@ I decided to look through www.behance.net for some inspiration, which drew me to
 
 In regards to achieving single page scrolling, after some internet searching, I found FullPage, which I decided to use the library for in my site (details on this to follow in the technologies section).
 
+One feature I particularly like in web sites I visit, are static backgrounds. I wanted to factor this into my design, and so decided to have a profile picture of Snoop Dogg overlayed by a transparent 'tile'.
+
 ### User Stories
 
 - As a fan, I want quick easy access to the artist's information and available media (most notably music catalogue).
@@ -127,6 +129,7 @@ To run locally all files from the Git repo are required and need to be hosted on
 - Hogni for further inspiration in this site's structure: http://www.hogni.com/#home
 - coolors.co for colour matching
 - Google images for the image content
+- W3Schools for much of the guidance, including further understanding of Flexbox, JQuery and a parallax background.
 
 ### Content
 
